@@ -27,7 +27,7 @@ def add_text(text, name):
     text = re
     # for i in text:
     #
-    editable.text((230, 130), "Великие цитаты пумовцев", fill=(255, 255, 255), font=title_font) #title = const
+    editable.text((230, 130), "Цитаты великих людей", fill=(255, 255, 255), font=title_font) #title = const
     editable.text((650, 400), text, fill=(255, 255, 255), font=font) # quote
     editable.text((145, 905), name, fill=(255, 255, 255), font=name_font)
 
